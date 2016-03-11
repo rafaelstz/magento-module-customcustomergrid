@@ -17,7 +17,7 @@ class Osm_Customcustomergrid_Model_Observer extends Varien_Event_Observer
         if ($block->getType() == 'adminhtml/customer_grid') {
             /* @var $block Mage_Adminhtml_Block_Customer_Grid */
             $block->addColumnAfter('taxvat', array(
-                'header'    => 'CPF',
+                'header'    => 'Tax/Vat',
                 'type'      => 'text',
                 'index'     => 'taxvat',
             ), 'email');
