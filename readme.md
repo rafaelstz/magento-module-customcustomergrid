@@ -1,9 +1,10 @@
 Osm CustomCustomerGrid Extension
 =====================
 Adds custom columns to Magento's customer grid (Custumers>Manage customer)
+
 Facts
 -----
-- version: 1.0.0
+- version: 0.1.0
 - extension key: Osm_CustomCustomerGrid
 - [extension on Magento Connect](http://www.magentocommerce.com/magento-connect/osm)-customcustomergrid-1234.html)
 - Magento Connect 1.0 extension key: magento-community/Osm_CustomCustomerGrid
@@ -17,25 +18,23 @@ Adds custom columns to Magento's customer grid (Custumers>Manage customer). Avai
 
 Requirements
 ------------
-- PHP >= 5.2.0
+- PHP >= 5.4.0
 - Mage_Core
-- ...
 
 Compatibility
 -------------
-- Magento >= 1.4
+- Magento >= 1.8
 
 Installation Instructions
 -------------------------
 1. Install the extension via Magento Connect with the key shown above or copy all the files into your document root.
 2. Clear the cache, logout from the admin panel and then login again.
 3. Configure and activate the extension under System - Configuration - Company - Example Extension.
-4. ...
 
 Uninstallation
 --------------
 1. Remove all extension files from your Magento installation
-2. ...
+2. Clear the cache, logout from the admin panel and then login again.
 
 Support
 -------
@@ -57,4 +56,4 @@ Licence
 
 Copyright
 ---------
-(c) 2016 Osm
+(c) 2016 Osmar Matos
