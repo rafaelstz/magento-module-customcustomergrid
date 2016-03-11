@@ -1,6 +1,6 @@
 Osm CustomCustomerGrid Extension
 =====================
-Adds custom columns to customer grid
+Adds custom columns to Magento's customer grid (Custumers>Manage customer)
 Facts
 -----
 - version: 1.0.0
@@ -13,7 +13,7 @@ Facts
 
 Description
 -----------
-This paragraph describes what the extension does.
+Adds custom columns to Magento's customer grid (Custumers>Manage customer). Available custom columns: taxvat.
 
 Requirements
 ------------
@@ -48,8 +48,8 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 Developer
 ---------
 Osmar Matos
-[http://www.firstname-lastname.com](http://www.firstname-lastname.com)
-[@FirstNameLastName](https://twitter.com/FirstNameLastName)
+[http://www.osmarmatos.com](http://www.osmarmatos.com)
+[@osmarmatos](https://twitter.com/osmarmatos)
 
 Licence
 -------
