@@ -1,0 +1,15 @@
+{
+    "name": "Osm/CustomCustomerGrid",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Adds custom columns to customer grid",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Osmar Matos",
+            "email":"osmarjr00@gmail.com"
+        }
+    ]
+}

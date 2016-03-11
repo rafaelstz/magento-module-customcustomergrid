@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Osm_Customcustomergrid>
+            <version>0.1.0</version>
+        </Osm_Customcustomergrid>
+    </modules>
+    <global>
+        <models>
+            <Osm_Customcustomergrid>
+                <class>Osm_Customcustomergrid_Model</class>
+            </Osm_Customcustomergrid>
+        </models>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <customer_grid>Osm_Customcustomergrid_Block_Adminhtml_Customer_Grid</customer_grid>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+    <adminhtml>
+        <events>
+            <core_block_abstract_prepare_layout_before>
+                <observers>
+                    <customgrid_column_append>
+                        <type>model</type>
+                        <class>Osm_Customcustomergrid_Model_Observer</class>
+                        <method>appendCustomColumn</method>
+                    </customgrid_column_append>
+                </observers>
+            </core_block_abstract_prepare_layout_before>
+        </events>
+    </adminhtml>
+</config>
